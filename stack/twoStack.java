@@ -52,4 +52,18 @@ public class twoStack {
         return sq.arr[sq.top2++];
     }
 }
+
+class TwoStack{
+    int top1;
+    int top2;
+    int size;
+    int[] arr = new int[100];
+    
+
+    TwoStack(){
+        int size = 100;
+        top1 = -1;
+        top2 = size; 
+
+    }
 }
